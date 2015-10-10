@@ -1,0 +1,56 @@
+PODS:
+  - AFNetworking (2.6.0):
+    - AFNetworking/NSURLConnection (= 2.6.0)
+    - AFNetworking/NSURLSession (= 2.6.0)
+    - AFNetworking/Reachability (= 2.6.0)
+    - AFNetworking/Security (= 2.6.0)
+    - AFNetworking/Serialization (= 2.6.0)
+    - AFNetworking/UIKit (= 2.6.0)
+  - AFNetworking/NSURLConnection (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.0)
+  - AFNetworking/Security (2.6.0)
+  - AFNetworking/Serialization (2.6.0)
+  - AFNetworking/UIKit (2.6.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - iCarousel (1.8.2)
+  - PXButton (0.1.3)
+  - PXImageView (0.1.1):
+    - UIImageView_AFNetworking-Blocks
+  - PXTutorialManager (0.1.2):
+    - iCarousel (~> 1.8)
+    - PXButton
+    - PXImageView
+    - PXUtilities
+    - UIColor-MoreColors
+  - PXUtilities (0.2.1):
+    - UIColor-MoreColors
+  - UIColor-MoreColors (1.1.0)
+  - UIImageView_AFNetworking-Blocks (0.1.0):
+    - AFNetworking (~> 2.0)
+
+DEPENDENCIES:
+  - PXTutorialManager (from `../`)
+
+EXTERNAL SOURCES:
+  PXTutorialManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
+  iCarousel: 67c8a43da5a46795b56aadfc96cd36a16f6149b2
+  PXButton: 0365069630388aa2fc99a574d4febb8d87efa04f
+  PXImageView: 8defcc5527234d3d2944c621f13fb9002dc10fd3
+  PXTutorialManager: e4bcf47a34da51fbe650d35b1e0cf18c0d651dc3
+  PXUtilities: 64d531acedd3c12489aba28252167e28430f72dc
+  UIColor-MoreColors: 66b65dcd322602ccd4d8064037a1ca0b4bb6acb2
+  UIImageView_AFNetworking-Blocks: 77b5ada4b4a0a1925e4c86cad1f9c3271b8e773f
+
+COCOAPODS: 0.38.2

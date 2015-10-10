@@ -1,0 +1,36 @@
+{
+    "storageVersion" : 1.0,
+    "pageArray" : [
+        {
+            "pageTitle" : "Page 1",
+            "pageText" : "This is the first page of a multi-page tutorial.",
+            "pageImageName" : "tutorialImagePage1"
+        },
+        {
+            "pageTitle" : "Page 2",
+            "pageText" : "In these tutorials, you can include arbitrary text and titles.  The background and button colors are also programmable",
+            "pageImageName" : "tutorialImagePage2"
+        },
+        {
+            "pageTitle" : "Page 3",
+            "pageText" : "The images on each page can be screenshots from your app so that you can explain different views.",
+            "pageImageName" : "tutorialImagePage3"
+        },
+        {
+            "pageTitle" : "Page 4",
+            "pageText" : "Images can also be aribitrary.",
+            "pageImageName" : "tutorialImagePage4"
+        },
+        {
+            "pageTitle" : "Page 5",
+            "pageText" : "And not conform to the size of an app screenshot.  But in this case, they will still have the same space restrictions",
+            "pageImageName" : "tutorialImagePage5"
+        },
+        {
+            "pageTitle" : "Page 6",
+            "pageText" : "The resources backing this tutorial are JSON and images.  You can set these up with relative ease.",
+            "pageImageName" : "tutorialImagePage6"
+        }
+    ],
+    "background" : "com.pixio.tutorial.default-background-image"
+}

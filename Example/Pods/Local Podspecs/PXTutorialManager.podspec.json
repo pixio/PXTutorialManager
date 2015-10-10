@@ -1,0 +1,44 @@
+{
+  "name": "PXTutorialManager",
+  "version": "0.1.2",
+  "summary": "A tutorial with an image carousel.",
+  "description": "Loads a JSON description for a tutorial and displays images and descriptions in a neat carousel.",
+  "homepage": "https://git.pixio.com/",
+  "license": "MIT",
+  "authors": {
+    "Daniel Blakemore": "DanBlakemore@gmail.com"
+  },
+  "source": {
+    "git": "git@git.pixio.com:ios-pods/pxtutorialmanager.git",
+    "tag": "0.1.2"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "PXTutorialManager": [
+      "Pod/Assets/PXTutorialManager/*.{png,json}"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "UIColor-MoreColors": [
+
+    ],
+    "PXButton": [
+
+    ],
+    "PXUtilities": [
+
+    ],
+    "PXImageView": [
+
+    ],
+    "iCarousel": [
+      "~> 1.8"
+    ]
+  }
+}
